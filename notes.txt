@@ -1,0 +1,12 @@
+go to .env and change name of datacaase to preferred and create db in phpmyadmin with same name
+laravel admin and user login & registration
+-composer require laravel/jetstream
+-php artisan jetstream:install livewire
+-npm install
+-npm run dev
+-make changes to user table in create user table in migrations
+-php artisan migrate
+-after this login and register would be created in the page
+-make cnages in user.php in app/model protected fillable
+
+to create a controller in terminal type php artisan make:controller name-of-controller
